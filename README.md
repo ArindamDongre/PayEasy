@@ -41,7 +41,7 @@ To set up the project locally, follow these steps:
    - Start the frontend:
      ```bash
      cd frontend
-     npm run build
+     npm run start
      ```
 ## Usage
 1. Open your browser and go to http://localhost:3000.
@@ -58,4 +58,9 @@ To set up the project locally, follow these steps:
 | POST   | `/api/v1/user/signup`   | Register a new user         |
 | POST   | `/api/v1/user/signin`   | Log in a user               |
 | POST   | `/api/v1/account/transfer`  | Transfer money to a user |
-| PUT    | `/api/v1/user`          | Update user information (password will be hashed if provided) |
+| PUT    | `/api/v1/user`          | Update user information     |
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request.
+
+
